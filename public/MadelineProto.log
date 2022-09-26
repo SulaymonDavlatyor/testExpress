@@ -1,0 +1,686 @@
+Logger:         	Automatically truncated logfile to 1048576
+Session:        	Garbage collected 1 outgoing messages in DC 2, 5 left
+Session:        	Garbage collected 7 incoming messages in DC 2, 0 left
+Session:        	Garbage collected 5 outgoing messages in DC 2, 0 left
+PingLoop:       	Ping DC 5.0
+Session:        	Garbage collected 1 incoming messages in DC 5, 0 left
+Session:        	Garbage collected 1 outgoing messages in DC 5, 0 left
+Session:        	Garbage collected 1 outgoing messages in DC 2, 1 left
+Session:        	Garbage collected 1 incoming messages in DC 2, 0 left
+Session:        	Garbage collected 2 outgoing messages in DC 2, 1 left
+Session:        	Garbage collected 1 incoming messages in DC 2, 0 left
+Session:        	Garbage collected 1 outgoing messages in DC 2, 0 left
+Session:        	Garbage collected 7 incoming messages in DC 2, 0 left
+Session:        	Garbage collected 6 outgoing messages in DC 2, 0 left
+UpdateHandler:  	Parsing updates (updateShort) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+Session:        	Garbage collected 1 incoming messages in DC 2, 0 left
+ReadLoop:       	danog\MadelineProto\NothingInTheSocketException in /home/sulaymon/projects/testExpress/vendor/danog/madelineproto/src/danog/MadelineProto/Stream/Common/BufferedRawStream.php:180
+Stack trace:
+#0 [internal function]: danog\MadelineProto\Stream\Common\BufferedRawStream->bufferReadGenerator()
+#1 /home/sulaymon/projects/testExpress/vendor/danog/madelineproto/src/danog/MadelineProto/Coroutine.php(112): Generator->send()
+#2 /home/sulaymon/projects/testExpress/vendor/amphp/amp/lib/Internal/Placeholder.php(149): danog\MadelineProto\Coroutine->danog\MadelineProto\{closure}()
+#3 /home/sulaymon/projects/testExpress/vendor/amphp/amp/lib/Deferred.php(53): Amp\Promise@anonymous->resolve()
+#4 /home/sulaymon/projects/testExpress/vendor/amphp/byte-stream/lib/ResourceInputStream.php(101): Amp\Deferred->resolve()
+#5 /home/sulaymon/projects/testExpress/vendor/amphp/amp/lib/Loop/NativeDriver.php(327): Amp\ByteStream\ResourceInputStream::Amp\ByteStream\{closure}()
+#6 /home/sulaymon/projects/testExpress/vendor/amphp/amp/lib/Loop/NativeDriver.php(127): Amp\Loop\NativeDriver->selectStreams()
+#7 /home/sulaymon/projects/testExpress/vendor/amphp/amp/lib/Loop/Driver.php(138): Amp\Loop\NativeDriver->dispatch()
+#8 /home/sulaymon/projects/testExpress/vendor/amphp/amp/lib/Loop/Driver.php(72): Amp\Loop\Driver->tick()
+#9 /home/sulaymon/projects/testExpress/vendor/amphp/amp/lib/Loop.php(95): Amp\Loop\Driver->run()
+#10 /home/sulaymon/projects/testExpress/vendor/danog/madelineproto/src/danog/MadelineProto/Tools.php(294): Amp\Loop::run()
+#11 /home/sulaymon/projects/testExpress/vendor/danog/madelineproto/src/danog/MadelineProto/Ipc/Runner/entry.php(110): danog\MadelineProto\Tools::wait()
+#12 /home/sulaymon/projects/testExpress/vendor/danog/madelineproto/src/danog/MadelineProto/Ipc/Runner/entry.php(134): {closure}()
+#13 {main}
+ReadLoop:       	Got nothing in the socket in DC 4_media.3, reconnecting...
+Connection:     	Reconnecting DC 4_media.3
+Connection:     	Disconnecting from DC 4_media.3
+Connection:     	Disconnected from DC 4_media.3
+DataCenter:     	Reconnecting to DC 4_media (3) from existing
+DataCenterConnection: 	Trying shared connection via tcp://149.154.167.43:443 main DC 4_media, via ipv4 using AbridgedStream => BufferedRawStream => DefaultStream (3)
+Connection:     	Connecting to DC 4_media.3
+Connection:     	Connected to DC 4_media.3!
+DataCenter:     	OK!
+SessionPaths:   	Waiting for exclusive lock of /home/sulaymon/projects/testExpress/public/session.madeline.safe.php.lock...
+SessionPaths:   	Got exclusive lock of /home/sulaymon/projects/testExpress/public/session.madeline.safe.php.lock...
+SessionPaths:   	Waiting for exclusive lock of /home/sulaymon/projects/testExpress/public/session.madeline.lightState.php.lock...
+SessionPaths:   	Got exclusive lock of /home/sulaymon/projects/testExpress/public/session.madeline.lightState.php.lock...
+APIWrapper:     	Saved session!
+PingLoop:       	Ping DC 2.0
+Session:        	Garbage collected 0 outgoing messages in DC 2, 1 left
+Session:        	Garbage collected 1 incoming messages in DC 2, 0 left
+Session:        	Garbage collected 2 outgoing messages in DC 2, 0 left
+Session:        	Garbage collected 1 incoming messages in DC 2, 0 left
+Session:        	Garbage collected 1 outgoing messages in DC 2, 0 left
+Session:        	Garbage collected 1 incoming messages in DC 2, 0 left
+Session:        	Garbage collected 2 outgoing messages in DC 2, 0 left
+Session:        	Garbage collected 7 incoming messages in DC 2, 0 left
+Session:        	Garbage collected 7 outgoing messages in DC 2, 0 left
+SessionPaths:   	Waiting for exclusive lock of /home/sulaymon/projects/testExpress/public/._madeline.safe.php.lock...
+SessionPaths:   	Got exclusive lock of /home/sulaymon/projects/testExpress/public/._madeline.safe.php.lock...
+SessionPaths:   	Waiting for exclusive lock of /home/sulaymon/projects/testExpress/public/._madeline.lightState.php.lock...
+SessionPaths:   	Got exclusive lock of /home/sulaymon/projects/testExpress/public/._madeline.lightState.php.lock...
+APIWrapper:     	Saved session!
+PingLoop:       	Ping DC 4.0
+Session:        	Garbage collected 0 outgoing messages in DC 4, 1 left
+Session:        	Garbage collected 1 incoming messages in DC 4, 0 left
+Session:        	Garbage collected 1 outgoing messages in DC 4, 0 left
+ReadLoop:       	danog\MadelineProto\NothingInTheSocketException in /home/sulaymon/projects/testExpress/vendor/danog/madelineproto/src/danog/MadelineProto/Stream/Common/BufferedRawStream.php:180
+Stack trace:
+#0 [internal function]: danog\MadelineProto\Stream\Common\BufferedRawStream->bufferReadGenerator()
+#1 /home/sulaymon/projects/testExpress/vendor/danog/madelineproto/src/danog/MadelineProto/Coroutine.php(112): Generator->send()
+#2 /home/sulaymon/projects/testExpress/vendor/amphp/amp/lib/Internal/Placeholder.php(149): danog\MadelineProto\Coroutine->danog\MadelineProto\{closure}()
+#3 /home/sulaymon/projects/testExpress/vendor/amphp/amp/lib/Deferred.php(53): Amp\Promise@anonymous->resolve()
+#4 /home/sulaymon/projects/testExpress/vendor/amphp/byte-stream/lib/ResourceInputStream.php(101): Amp\Deferred->resolve()
+#5 /home/sulaymon/projects/testExpress/vendor/amphp/amp/lib/Loop/NativeDriver.php(327): Amp\ByteStream\ResourceInputStream::Amp\ByteStream\{closure}()
+#6 /home/sulaymon/projects/testExpress/vendor/amphp/amp/lib/Loop/NativeDriver.php(127): Amp\Loop\NativeDriver->selectStreams()
+#7 /home/sulaymon/projects/testExpress/vendor/amphp/amp/lib/Loop/Driver.php(138): Amp\Loop\NativeDriver->dispatch()
+#8 /home/sulaymon/projects/testExpress/vendor/amphp/amp/lib/Loop/Driver.php(72): Amp\Loop\Driver->tick()
+#9 /home/sulaymon/projects/testExpress/vendor/amphp/amp/lib/Loop.php(95): Amp\Loop\Driver->run()
+#10 /home/sulaymon/projects/testExpress/vendor/danog/madelineproto/src/danog/MadelineProto/Tools.php(294): Amp\Loop::run()
+#11 /home/sulaymon/projects/testExpress/vendor/danog/madelineproto/src/danog/MadelineProto/Ipc/Runner/entry.php(110): danog\MadelineProto\Tools::wait()
+#12 /home/sulaymon/projects/testExpress/vendor/danog/madelineproto/src/danog/MadelineProto/Ipc/Runner/entry.php(134): {closure}()
+#13 {main}
+ReadLoop:       	Got nothing in the socket in DC 4_media.4, reconnecting...
+Connection:     	Reconnecting DC 4_media.4
+Connection:     	Disconnecting from DC 4_media.4
+Connection:     	Disconnected from DC 4_media.4
+DataCenter:     	Reconnecting to DC 4_media (4) from existing
+DataCenterConnection: 	Trying shared connection via tcp://149.154.167.43:443 main DC 4_media, via ipv4 using AbridgedStream => BufferedRawStream => DefaultStream (4)
+Connection:     	Connecting to DC 4_media.4
+Connection:     	Connected to DC 4_media.4!
+DataCenter:     	OK!
+Session:        	Garbage collected 1 outgoing messages in DC 2, 1 left
+Session:        	Garbage collected 1 incoming messages in DC 2, 0 left
+Session:        	Garbage collected 2 outgoing messages in DC 2, 1 left
+Session:        	Garbage collected 1 incoming messages in DC 2, 0 left
+Session:        	Garbage collected 1 outgoing messages in DC 2, 0 left
+PingLoop:       	Ping DC 3.0
+Session:        	Garbage collected 0 outgoing messages in DC 3, 1 left
+Session:        	Garbage collected 2 outgoing messages in DC 2, 5 left
+PingLoop:       	Ping DC 1.0
+Session:        	Garbage collected 1 incoming messages in DC 3, 0 left
+Session:        	Garbage collected 1 outgoing messages in DC 3, 0 left
+Session:        	Garbage collected 1 incoming messages in DC 1, 0 left
+Session:        	Garbage collected 1 outgoing messages in DC 1, 0 left
+Session:        	Garbage collected 7 incoming messages in DC 2, 0 left
+Session:        	Garbage collected 5 outgoing messages in DC 2, 0 left
+ReadLoop:       	danog\MadelineProto\NothingInTheSocketException in /home/sulaymon/projects/testExpress/vendor/danog/madelineproto/src/danog/MadelineProto/Stream/Common/BufferedRawStream.php:180
+Stack trace:
+#0 [internal function]: danog\MadelineProto\Stream\Common\BufferedRawStream->bufferReadGenerator()
+#1 /home/sulaymon/projects/testExpress/vendor/danog/madelineproto/src/danog/MadelineProto/Coroutine.php(112): Generator->send()
+#2 /home/sulaymon/projects/testExpress/vendor/amphp/amp/lib/Internal/Placeholder.php(149): danog\MadelineProto\Coroutine->danog\MadelineProto\{closure}()
+#3 /home/sulaymon/projects/testExpress/vendor/amphp/amp/lib/Deferred.php(53): Amp\Promise@anonymous->resolve()
+#4 /home/sulaymon/projects/testExpress/vendor/amphp/byte-stream/lib/ResourceInputStream.php(101): Amp\Deferred->resolve()
+#5 /home/sulaymon/projects/testExpress/vendor/amphp/amp/lib/Loop/NativeDriver.php(327): Amp\ByteStream\ResourceInputStream::Amp\ByteStream\{closure}()
+#6 /home/sulaymon/projects/testExpress/vendor/amphp/amp/lib/Loop/NativeDriver.php(127): Amp\Loop\NativeDriver->selectStreams()
+#7 /home/sulaymon/projects/testExpress/vendor/amphp/amp/lib/Loop/Driver.php(138): Amp\Loop\NativeDriver->dispatch()
+#8 /home/sulaymon/projects/testExpress/vendor/amphp/amp/lib/Loop/Driver.php(72): Amp\Loop\Driver->tick()
+#9 /home/sulaymon/projects/testExpress/vendor/amphp/amp/lib/Loop.php(95): Amp\Loop\Driver->run()
+#10 /home/sulaymon/projects/testExpress/vendor/danog/madelineproto/src/danog/MadelineProto/Tools.php(294): Amp\Loop::run()
+#11 /home/sulaymon/projects/testExpress/vendor/danog/madelineproto/src/danog/MadelineProto/Ipc/Runner/entry.php(110): danog\MadelineProto\Tools::wait()
+#12 /home/sulaymon/projects/testExpress/vendor/danog/madelineproto/src/danog/MadelineProto/Ipc/Runner/entry.php(134): {closure}()
+#13 {main}
+ReadLoop:       	Got nothing in the socket in DC 4_media.0, reconnecting...
+Connection:     	Reconnecting DC 4_media.0
+Connection:     	Disconnecting from DC 4_media.0
+Connection:     	Disconnected from DC 4_media.0
+DataCenter:     	Reconnecting to DC 4_media (0) from existing
+DataCenterConnection: 	Trying shared connection via tcp://149.154.167.43:443 main DC 4_media, via ipv4 using AbridgedStream => BufferedRawStream => DefaultStream (0)
+Connection:     	Connecting to DC 4_media.0
+Connection:     	Connected to DC 4_media.0!
+DataCenter:     	OK!
+PingLoop:       	Ping DC 4.0
+Session:        	Garbage collected 1 incoming messages in DC 4, 0 left
+Session:        	Garbage collected 1 outgoing messages in DC 4, 0 left
+PingLoop:       	Ping DC 1.0
+Session:        	Garbage collected 1 incoming messages in DC 2, 0 left
+Session:        	Garbage collected 2 outgoing messages in DC 2, 0 left
+Session:        	Garbage collected 1 incoming messages in DC 1, 0 left
+Session:        	Garbage collected 1 outgoing messages in DC 1, 0 left
+Session:        	Garbage collected 1 incoming messages in DC 2, 0 left
+Session:        	Garbage collected 2 outgoing messages in DC 2, 0 left
+PingLoop:       	Ping DC 5.0
+Session:        	Garbage collected 1 incoming messages in DC 5, 0 left
+Session:        	Garbage collected 1 outgoing messages in DC 5, 0 left
+Session:        	Garbage collected 7 incoming messages in DC 2, 0 left
+Session:        	Garbage collected 6 outgoing messages in DC 2, 0 left
+SessionPaths:   	Waiting for exclusive lock of /home/sulaymon/projects/testExpress/public/session.madeline.safe.php.lock...
+SessionPaths:   	Got exclusive lock of /home/sulaymon/projects/testExpress/public/session.madeline.safe.php.lock...
+SessionPaths:   	Waiting for exclusive lock of /home/sulaymon/projects/testExpress/public/session.madeline.lightState.php.lock...
+SessionPaths:   	Got exclusive lock of /home/sulaymon/projects/testExpress/public/session.madeline.lightState.php.lock...
+APIWrapper:     	Saved session!
+Session:        	Garbage collected 1 incoming messages in DC 2, 0 left
+Session:        	Garbage collected 2 outgoing messages in DC 2, 0 left
+Session:        	Garbage collected 1 incoming messages in DC 2, 0 left
+Session:        	Garbage collected 2 outgoing messages in DC 2, 0 left
+Session:        	Garbage collected 7 incoming messages in DC 2, 0 left
+Session:        	Garbage collected 6 outgoing messages in DC 2, 0 left
+SessionPaths:   	Waiting for exclusive lock of /home/sulaymon/projects/testExpress/public/._madeline.safe.php.lock...
+SessionPaths:   	Got exclusive lock of /home/sulaymon/projects/testExpress/public/._madeline.safe.php.lock...
+SessionPaths:   	Waiting for exclusive lock of /home/sulaymon/projects/testExpress/public/._madeline.lightState.php.lock...
+SessionPaths:   	Got exclusive lock of /home/sulaymon/projects/testExpress/public/._madeline.lightState.php.lock...
+APIWrapper:     	Saved session!
+ReadLoop:       	danog\MadelineProto\NothingInTheSocketException in /home/sulaymon/projects/testExpress/vendor/danog/madelineproto/src/danog/MadelineProto/Stream/Common/BufferedRawStream.php:180
+Stack trace:
+#0 [internal function]: danog\MadelineProto\Stream\Common\BufferedRawStream->bufferReadGenerator()
+#1 /home/sulaymon/projects/testExpress/vendor/danog/madelineproto/src/danog/MadelineProto/Coroutine.php(112): Generator->send()
+#2 /home/sulaymon/projects/testExpress/vendor/amphp/amp/lib/Internal/Placeholder.php(149): danog\MadelineProto\Coroutine->danog\MadelineProto\{closure}()
+#3 /home/sulaymon/projects/testExpress/vendor/amphp/amp/lib/Deferred.php(53): Amp\Promise@anonymous->resolve()
+#4 /home/sulaymon/projects/testExpress/vendor/amphp/byte-stream/lib/ResourceInputStream.php(101): Amp\Deferred->resolve()
+#5 /home/sulaymon/projects/testExpress/vendor/amphp/amp/lib/Loop/NativeDriver.php(327): Amp\ByteStream\ResourceInputStream::Amp\ByteStream\{closure}()
+#6 /home/sulaymon/projects/testExpress/vendor/amphp/amp/lib/Loop/NativeDriver.php(127): Amp\Loop\NativeDriver->selectStreams()
+#7 /home/sulaymon/projects/testExpress/vendor/amphp/amp/lib/Loop/Driver.php(138): Amp\Loop\NativeDriver->dispatch()
+#8 /home/sulaymon/projects/testExpress/vendor/amphp/amp/lib/Loop/Driver.php(72): Amp\Loop\Driver->tick()
+#9 /home/sulaymon/projects/testExpress/vendor/amphp/amp/lib/Loop.php(95): Amp\Loop\Driver->run()
+#10 /home/sulaymon/projects/testExpress/vendor/danog/madelineproto/src/danog/MadelineProto/Tools.php(294): Amp\Loop::run()
+#11 /home/sulaymon/projects/testExpress/vendor/danog/madelineproto/src/danog/MadelineProto/Ipc/Runner/entry.php(110): danog\MadelineProto\Tools::wait()
+#12 /home/sulaymon/projects/testExpress/vendor/danog/madelineproto/src/danog/MadelineProto/Ipc/Runner/entry.php(134): {closure}()
+#13 {main}
+ReadLoop:       	Got nothing in the socket in DC 4_media.2, reconnecting...
+Connection:     	Reconnecting DC 4_media.2
+Connection:     	Disconnecting from DC 4_media.2
+Connection:     	Disconnected from DC 4_media.2
+DataCenter:     	Reconnecting to DC 4_media (2) from existing
+DataCenterConnection: 	Trying shared connection via tcp://149.154.167.43:443 main DC 4_media, via ipv4 using AbridgedStream => BufferedRawStream => DefaultStream (2)
+Connection:     	Connecting to DC 4_media.2
+Connection:     	Connected to DC 4_media.2!
+DataCenter:     	OK!
+Session:        	Garbage collected 1 incoming messages in DC 2, 0 left
+Session:        	Garbage collected 2 outgoing messages in DC 2, 0 left
+Session:        	Garbage collected 1 incoming messages in DC 2, 0 left
+Session:        	Garbage collected 2 outgoing messages in DC 2, 0 left
+Session:        	Garbage collected 7 incoming messages in DC 2, 0 left
+Session:        	Garbage collected 6 outgoing messages in DC 2, 0 left
+PingLoop:       	Ping DC 5.0
+Session:        	Garbage collected 0 outgoing messages in DC 5, 1 left
+Session:        	Garbage collected 1 incoming messages in DC 5, 0 left
+Session:        	Garbage collected 1 outgoing messages in DC 5, 0 left
+Session:        	Garbage collected 1 outgoing messages in DC 2, 1 left
+Session:        	Garbage collected 1 incoming messages in DC 2, 0 left
+Session:        	Garbage collected 2 outgoing messages in DC 2, 1 left
+Session:        	Garbage collected 1 incoming messages in DC 2, 0 left
+Session:        	Garbage collected 1 outgoing messages in DC 2, 0 left
+Session:        	Garbage collected 2 outgoing messages in DC 2, 5 left
+ReadLoop:       	danog\MadelineProto\NothingInTheSocketException in /home/sulaymon/projects/testExpress/vendor/danog/madelineproto/src/danog/MadelineProto/Stream/Common/BufferedRawStream.php:180
+Stack trace:
+#0 [internal function]: danog\MadelineProto\Stream\Common\BufferedRawStream->bufferReadGenerator()
+#1 /home/sulaymon/projects/testExpress/vendor/danog/madelineproto/src/danog/MadelineProto/Coroutine.php(112): Generator->send()
+#2 /home/sulaymon/projects/testExpress/vendor/amphp/amp/lib/Internal/Placeholder.php(149): danog\MadelineProto\Coroutine->danog\MadelineProto\{closure}()
+#3 /home/sulaymon/projects/testExpress/vendor/amphp/amp/lib/Deferred.php(53): Amp\Promise@anonymous->resolve()
+#4 /home/sulaymon/projects/testExpress/vendor/amphp/byte-stream/lib/ResourceInputStream.php(101): Amp\Deferred->resolve()
+#5 /home/sulaymon/projects/testExpress/vendor/amphp/amp/lib/Loop/NativeDriver.php(327): Amp\ByteStream\ResourceInputStream::Amp\ByteStream\{closure}()
+#6 /home/sulaymon/projects/testExpress/vendor/amphp/amp/lib/Loop/NativeDriver.php(127): Amp\Loop\NativeDriver->selectStreams()
+#7 /home/sulaymon/projects/testExpress/vendor/amphp/amp/lib/Loop/Driver.php(138): Amp\Loop\NativeDriver->dispatch()
+#8 /home/sulaymon/projects/testExpress/vendor/amphp/amp/lib/Loop/Driver.php(72): Amp\Loop\Driver->tick()
+#9 /home/sulaymon/projects/testExpress/vendor/amphp/amp/lib/Loop.php(95): Amp\Loop\Driver->run()
+#10 /home/sulaymon/projects/testExpress/vendor/danog/madelineproto/src/danog/MadelineProto/Tools.php(294): Amp\Loop::run()
+#11 /home/sulaymon/projects/testExpress/vendor/danog/madelineproto/src/danog/MadelineProto/Ipc/Runner/entry.php(110): danog\MadelineProto\Tools::wait()
+#12 /home/sulaymon/projects/testExpress/vendor/danog/madelineproto/src/danog/MadelineProto/Ipc/Runner/entry.php(134): {closure}()
+#13 {main}
+ReadLoop:       	Got nothing in the socket in DC 4_media.1, reconnecting...
+Connection:     	Reconnecting DC 4_media.1
+Connection:     	Disconnecting from DC 4_media.1
+Connection:     	Disconnected from DC 4_media.1
+DataCenter:     	Reconnecting to DC 4_media (1) from existing
+DataCenterConnection: 	Trying shared connection via tcp://149.154.167.43:443 main DC 4_media, via ipv4 using AbridgedStream => BufferedRawStream => DefaultStream (1)
+Connection:     	Connecting to DC 4_media.1
+Connection:     	Connected to DC 4_media.1!
+DataCenter:     	OK!
+Session:        	Garbage collected 7 incoming messages in DC 2, 0 left
+Session:        	Garbage collected 5 outgoing messages in DC 2, 0 left
+SessionPaths:   	Waiting for exclusive lock of /home/sulaymon/projects/testExpress/public/session.madeline.safe.php.lock...
+SessionPaths:   	Got exclusive lock of /home/sulaymon/projects/testExpress/public/session.madeline.safe.php.lock...
+SessionPaths:   	Waiting for exclusive lock of /home/sulaymon/projects/testExpress/public/session.madeline.lightState.php.lock...
+SessionPaths:   	Got exclusive lock of /home/sulaymon/projects/testExpress/public/session.madeline.lightState.php.lock...
+APIWrapper:     	Saved session!
+PingLoop:       	Ping DC 2.0
+Session:        	Garbage collected 1 incoming messages in DC 2, 0 left
+Session:        	Garbage collected 1 outgoing messages in DC 2, 0 left
+Session:        	Garbage collected 1 incoming messages in DC 2, 0 left
+Session:        	Garbage collected 2 outgoing messages in DC 2, 0 left
+Session:        	Garbage collected 1 incoming messages in DC 2, 0 left
+Session:        	Garbage collected 2 outgoing messages in DC 2, 0 left
+SessionPaths:   	Waiting for exclusive lock of /home/sulaymon/projects/testExpress/public/._madeline.safe.php.lock...
+SessionPaths:   	Got exclusive lock of /home/sulaymon/projects/testExpress/public/._madeline.safe.php.lock...
+SessionPaths:   	Waiting for exclusive lock of /home/sulaymon/projects/testExpress/public/._madeline.lightState.php.lock...
+SessionPaths:   	Got exclusive lock of /home/sulaymon/projects/testExpress/public/._madeline.lightState.php.lock...
+APIWrapper:     	Saved session!
+Session:        	Garbage collected 7 incoming messages in DC 2, 0 left
+Session:        	Garbage collected 6 outgoing messages in DC 2, 0 left
+PingLoop:       	Ping DC 4.0
+Session:        	Garbage collected 1 incoming messages in DC 4, 0 left
+Session:        	Garbage collected 1 outgoing messages in DC 4, 0 left
+Session:        	Garbage collected 1 incoming messages in DC 2, 0 left
+Session:        	Garbage collected 2 outgoing messages in DC 2, 0 left
+UpdateHandler:  	Parsing updates (updateShort) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+Session:        	Garbage collected 2 incoming messages in DC 2, 0 left
+Session:        	Garbage collected 2 outgoing messages in DC 2, 0 left
+PingLoop:       	Ping DC 3.0
+PingLoop:       	Ping DC 1.0
+Session:        	Garbage collected 1 incoming messages in DC 3, 0 left
+Session:        	Garbage collected 1 outgoing messages in DC 3, 0 left
+Session:        	Garbage collected 0 outgoing messages in DC 1, 1 left
+Session:        	Garbage collected 7 incoming messages in DC 2, 0 left
+Session:        	Garbage collected 6 outgoing messages in DC 2, 0 left
+Session:        	Garbage collected 1 incoming messages in DC 1, 0 left
+Session:        	Garbage collected 1 outgoing messages in DC 1, 0 left
+PingLoop:       	Ping DC 4.0
+Session:        	Garbage collected 1 incoming messages in DC 4, 0 left
+Session:        	Garbage collected 1 outgoing messages in DC 4, 0 left
+PingLoop:       	Ping DC 1.0
+Session:        	Garbage collected 1 incoming messages in DC 1, 0 left
+Session:        	Garbage collected 1 outgoing messages in DC 1, 0 left
+ReadLoop:       	danog\MadelineProto\NothingInTheSocketException in /home/sulaymon/projects/testExpress/vendor/danog/madelineproto/src/danog/MadelineProto/Stream/Common/BufferedRawStream.php:180
+Stack trace:
+#0 [internal function]: danog\MadelineProto\Stream\Common\BufferedRawStream->bufferReadGenerator()
+#1 /home/sulaymon/projects/testExpress/vendor/danog/madelineproto/src/danog/MadelineProto/Coroutine.php(112): Generator->send()
+#2 /home/sulaymon/projects/testExpress/vendor/amphp/amp/lib/Internal/Placeholder.php(149): danog\MadelineProto\Coroutine->danog\MadelineProto\{closure}()
+#3 /home/sulaymon/projects/testExpress/vendor/amphp/amp/lib/Deferred.php(53): Amp\Promise@anonymous->resolve()
+#4 /home/sulaymon/projects/testExpress/vendor/amphp/byte-stream/lib/ResourceInputStream.php(101): Amp\Deferred->resolve()
+#5 /home/sulaymon/projects/testExpress/vendor/amphp/amp/lib/Loop/NativeDriver.php(327): Amp\ByteStream\ResourceInputStream::Amp\ByteStream\{closure}()
+#6 /home/sulaymon/projects/testExpress/vendor/amphp/amp/lib/Loop/NativeDriver.php(127): Amp\Loop\NativeDriver->selectStreams()
+#7 /home/sulaymon/projects/testExpress/vendor/amphp/amp/lib/Loop/Driver.php(138): Amp\Loop\NativeDriver->dispatch()
+#8 /home/sulaymon/projects/testExpress/vendor/amphp/amp/lib/Loop/Driver.php(72): Amp\Loop\Driver->tick()
+#9 /home/sulaymon/projects/testExpress/vendor/amphp/amp/lib/Loop.php(95): Amp\Loop\Driver->run()
+#10 /home/sulaymon/projects/testExpress/vendor/danog/madelineproto/src/danog/MadelineProto/Tools.php(294): Amp\Loop::run()
+#11 /home/sulaymon/projects/testExpress/vendor/danog/madelineproto/src/danog/MadelineProto/Ipc/Runner/entry.php(110): danog\MadelineProto\Tools::wait()
+#12 /home/sulaymon/projects/testExpress/vendor/danog/madelineproto/src/danog/MadelineProto/Ipc/Runner/entry.php(134): {closure}()
+#13 {main}
+ReadLoop:       	Got nothing in the socket in DC 4_media.3, reconnecting...
+Connection:     	Reconnecting DC 4_media.3
+Connection:     	Disconnecting from DC 4_media.3
+Connection:     	Disconnected from DC 4_media.3
+DataCenter:     	Reconnecting to DC 4_media (3) from existing
+DataCenterConnection: 	Trying shared connection via tcp://149.154.167.43:443 main DC 4_media, via ipv4 using AbridgedStream => BufferedRawStream => DefaultStream (3)
+Connection:     	Connecting to DC 4_media.3
+Connection:     	Connected to DC 4_media.3!
+DataCenter:     	OK!
+ReadLoop:       	danog\MadelineProto\NothingInTheSocketException in /home/sulaymon/projects/testExpress/vendor/danog/madelineproto/src/danog/MadelineProto/Stream/Common/BufferedRawStream.php:180
+Stack trace:
+#0 [internal function]: danog\MadelineProto\Stream\Common\BufferedRawStream->bufferReadGenerator()
+#1 /home/sulaymon/projects/testExpress/vendor/danog/madelineproto/src/danog/MadelineProto/Coroutine.php(112): Generator->send()
+#2 /home/sulaymon/projects/testExpress/vendor/amphp/amp/lib/Internal/Placeholder.php(149): danog\MadelineProto\Coroutine->danog\MadelineProto\{closure}()
+#3 /home/sulaymon/projects/testExpress/vendor/amphp/amp/lib/Deferred.php(53): Amp\Promise@anonymous->resolve()
+#4 /home/sulaymon/projects/testExpress/vendor/amphp/byte-stream/lib/ResourceInputStream.php(101): Amp\Deferred->resolve()
+#5 /home/sulaymon/projects/testExpress/vendor/amphp/amp/lib/Loop/NativeDriver.php(327): Amp\ByteStream\ResourceInputStream::Amp\ByteStream\{closure}()
+#6 /home/sulaymon/projects/testExpress/vendor/amphp/amp/lib/Loop/NativeDriver.php(127): Amp\Loop\NativeDriver->selectStreams()
+#7 /home/sulaymon/projects/testExpress/vendor/amphp/amp/lib/Loop/Driver.php(138): Amp\Loop\NativeDriver->dispatch()
+#8 /home/sulaymon/projects/testExpress/vendor/amphp/amp/lib/Loop/Driver.php(72): Amp\Loop\Driver->tick()
+#9 /home/sulaymon/projects/testExpress/vendor/amphp/amp/lib/Loop.php(95): Amp\Loop\Driver->run()
+#10 /home/sulaymon/projects/testExpress/vendor/danog/madelineproto/src/danog/MadelineProto/Tools.php(294): Amp\Loop::run()
+#11 /home/sulaymon/projects/testExpress/vendor/danog/madelineproto/src/danog/MadelineProto/Ipc/Runner/entry.php(110): danog\MadelineProto\Tools::wait()
+#12 /home/sulaymon/projects/testExpress/vendor/danog/madelineproto/src/danog/MadelineProto/Ipc/Runner/entry.php(134): {closure}()
+#13 {main}
+ReadLoop:       	Got nothing in the socket in DC 4_media.4, reconnecting...
+Connection:     	Reconnecting DC 4_media.4
+Connection:     	Disconnecting from DC 4_media.4
+Connection:     	Disconnected from DC 4_media.4
+DataCenter:     	Reconnecting to DC 4_media (4) from existing
+DataCenterConnection: 	Trying shared connection via tcp://149.154.167.43:443 main DC 4_media, via ipv4 using AbridgedStream => BufferedRawStream => DefaultStream (4)
+Connection:     	Connecting to DC 4_media.4
+Session:        	Garbage collected 1 outgoing messages in DC 2, 1 left
+Connection:     	Connected to DC 4_media.4!
+DataCenter:     	OK!
+PingLoop:       	Ping DC 5.0
+Session:        	Garbage collected 1 incoming messages in DC 2, 0 left
+Session:        	Garbage collected 2 outgoing messages in DC 2, 1 left
+Session:        	Garbage collected 0 outgoing messages in DC 5, 1 left
+Session:        	Garbage collected 1 incoming messages in DC 5, 0 left
+Session:        	Garbage collected 1 outgoing messages in DC 5, 0 left
+Session:        	Garbage collected 1 incoming messages in DC 2, 0 left
+Session:        	Garbage collected 1 outgoing messages in DC 2, 0 left
+Session:        	Garbage collected 1 outgoing messages in DC 2, 5 left
+Session:        	Garbage collected 7 incoming messages in DC 2, 0 left
+Session:        	Garbage collected 5 outgoing messages in DC 2, 0 left
+UpdateHandler:  	Parsing updates (updateShort) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+SessionPaths:   	Waiting for exclusive lock of /home/sulaymon/projects/testExpress/public/session.madeline.safe.php.lock...
+SessionPaths:   	Got exclusive lock of /home/sulaymon/projects/testExpress/public/session.madeline.safe.php.lock...
+SessionPaths:   	Waiting for exclusive lock of /home/sulaymon/projects/testExpress/public/session.madeline.lightState.php.lock...
+SessionPaths:   	Got exclusive lock of /home/sulaymon/projects/testExpress/public/session.madeline.lightState.php.lock...
+APIWrapper:     	Saved session!
+Session:        	Garbage collected 1 incoming messages in DC 2, 0 left
+Session:        	Garbage collected 1 incoming messages in DC 2, 0 left
+Session:        	Garbage collected 2 outgoing messages in DC 2, 0 left
+Session:        	Garbage collected 1 incoming messages in DC 2, 0 left
+Session:        	Garbage collected 2 outgoing messages in DC 2, 0 left
+ReadLoop:       	danog\MadelineProto\NothingInTheSocketException in /home/sulaymon/projects/testExpress/vendor/danog/madelineproto/src/danog/MadelineProto/Stream/Common/BufferedRawStream.php:180
+Stack trace:
+#0 [internal function]: danog\MadelineProto\Stream\Common\BufferedRawStream->bufferReadGenerator()
+#1 /home/sulaymon/projects/testExpress/vendor/danog/madelineproto/src/danog/MadelineProto/Coroutine.php(112): Generator->send()
+#2 /home/sulaymon/projects/testExpress/vendor/amphp/amp/lib/Internal/Placeholder.php(149): danog\MadelineProto\Coroutine->danog\MadelineProto\{closure}()
+#3 /home/sulaymon/projects/testExpress/vendor/amphp/amp/lib/Deferred.php(53): Amp\Promise@anonymous->resolve()
+#4 /home/sulaymon/projects/testExpress/vendor/amphp/byte-stream/lib/ResourceInputStream.php(101): Amp\Deferred->resolve()
+#5 /home/sulaymon/projects/testExpress/vendor/amphp/amp/lib/Loop/NativeDriver.php(327): Amp\ByteStream\ResourceInputStream::Amp\ByteStream\{closure}()
+#6 /home/sulaymon/projects/testExpress/vendor/amphp/amp/lib/Loop/NativeDriver.php(127): Amp\Loop\NativeDriver->selectStreams()
+#7 /home/sulaymon/projects/testExpress/vendor/amphp/amp/lib/Loop/Driver.php(138): Amp\Loop\NativeDriver->dispatch()
+#8 /home/sulaymon/projects/testExpress/vendor/amphp/amp/lib/Loop/Driver.php(72): Amp\Loop\Driver->tick()
+#9 /home/sulaymon/projects/testExpress/vendor/amphp/amp/lib/Loop.php(95): Amp\Loop\Driver->run()
+#10 /home/sulaymon/projects/testExpress/vendor/danog/madelineproto/src/danog/MadelineProto/Tools.php(294): Amp\Loop::run()
+#11 /home/sulaymon/projects/testExpress/vendor/danog/madelineproto/src/danog/MadelineProto/Ipc/Runner/entry.php(110): danog\MadelineProto\Tools::wait()
+#12 /home/sulaymon/projects/testExpress/vendor/danog/madelineproto/src/danog/MadelineProto/Ipc/Runner/entry.php(134): {closure}()
+#13 {main}
+ReadLoop:       	Got nothing in the socket in DC 4_media.0, reconnecting...
+Connection:     	Reconnecting DC 4_media.0
+Connection:     	Disconnecting from DC 4_media.0
+Connection:     	Disconnected from DC 4_media.0
+DataCenter:     	Reconnecting to DC 4_media (0) from existing
+DataCenterConnection: 	Trying shared connection via tcp://149.154.167.43:443 main DC 4_media, via ipv4 using AbridgedStream => BufferedRawStream => DefaultStream (0)
+Connection:     	Connecting to DC 4_media.0
+Connection:     	Connected to DC 4_media.0!
+DataCenter:     	OK!
+SessionPaths:   	Waiting for exclusive lock of /home/sulaymon/projects/testExpress/public/._madeline.safe.php.lock...
+SessionPaths:   	Got exclusive lock of /home/sulaymon/projects/testExpress/public/._madeline.safe.php.lock...
+SessionPaths:   	Waiting for exclusive lock of /home/sulaymon/projects/testExpress/public/._madeline.lightState.php.lock...
+SessionPaths:   	Got exclusive lock of /home/sulaymon/projects/testExpress/public/._madeline.lightState.php.lock...
+APIWrapper:     	Saved session!
+Session:        	Garbage collected 7 incoming messages in DC 2, 0 left
+Session:        	Garbage collected 6 outgoing messages in DC 2, 0 left
+Session:        	Garbage collected 1 incoming messages in DC 2, 0 left
+Session:        	Garbage collected 2 outgoing messages in DC 2, 0 left
+Session:        	Garbage collected 1 incoming messages in DC 2, 0 left
+Session:        	Garbage collected 2 outgoing messages in DC 2, 0 left
+Session:        	Garbage collected 7 incoming messages in DC 2, 0 left
+Session:        	Garbage collected 6 outgoing messages in DC 2, 0 left
+PingLoop:       	Ping DC 5.0
+Session:        	Garbage collected 1 incoming messages in DC 5, 0 left
+Session:        	Garbage collected 1 outgoing messages in DC 5, 0 left
+PeerHandler:    	Only have min peer for 852480029 in database, trying to fetch full info
+MinDatabase:    	Don't have origin info with min peer 852480029, this may fail
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+SeqLoop:        	Was fed updates of type updates...
+FeedLoop:       	Resumed update feed loop channel 1283334482
+Session:        	Garbage collected 2 incoming messages in DC 2, 0 left
+Session:        	Garbage collected 3 outgoing messages in DC 2, 1 left
+FeedLoop:       	Resumed update feed loop channel 1283334482
+Session:        	Garbage collected 1 incoming messages in DC 2, 0 left
+Session:        	Garbage collected 2 outgoing messages in DC 2, 1 left
+Session:        	Garbage collected 1 incoming messages in DC 2, 0 left
+Session:        	Garbage collected 1 outgoing messages in DC 2, 0 left
+Session:        	Garbage collected 2 outgoing messages in DC 2, 5 left
+ReadLoop:       	danog\MadelineProto\NothingInTheSocketException in /home/sulaymon/projects/testExpress/vendor/danog/madelineproto/src/danog/MadelineProto/Stream/Common/BufferedRawStream.php:180
+Stack trace:
+#0 [internal function]: danog\MadelineProto\Stream\Common\BufferedRawStream->bufferReadGenerator()
+#1 /home/sulaymon/projects/testExpress/vendor/danog/madelineproto/src/danog/MadelineProto/Coroutine.php(112): Generator->send()
+#2 /home/sulaymon/projects/testExpress/vendor/amphp/amp/lib/Internal/Placeholder.php(149): danog\MadelineProto\Coroutine->danog\MadelineProto\{closure}()
+#3 /home/sulaymon/projects/testExpress/vendor/amphp/amp/lib/Deferred.php(53): Amp\Promise@anonymous->resolve()
+#4 /home/sulaymon/projects/testExpress/vendor/amphp/byte-stream/lib/ResourceInputStream.php(101): Amp\Deferred->resolve()
+#5 /home/sulaymon/projects/testExpress/vendor/amphp/amp/lib/Loop/NativeDriver.php(327): Amp\ByteStream\ResourceInputStream::Amp\ByteStream\{closure}()
+#6 /home/sulaymon/projects/testExpress/vendor/amphp/amp/lib/Loop/NativeDriver.php(127): Amp\Loop\NativeDriver->selectStreams()
+#7 /home/sulaymon/projects/testExpress/vendor/amphp/amp/lib/Loop/Driver.php(138): Amp\Loop\NativeDriver->dispatch()
+#8 /home/sulaymon/projects/testExpress/vendor/amphp/amp/lib/Loop/Driver.php(72): Amp\Loop\Driver->tick()
+#9 /home/sulaymon/projects/testExpress/vendor/amphp/amp/lib/Loop.php(95): Amp\Loop\Driver->run()
+#10 /home/sulaymon/projects/testExpress/vendor/danog/madelineproto/src/danog/MadelineProto/Tools.php(294): Amp\Loop::run()
+#11 /home/sulaymon/projects/testExpress/vendor/danog/madelineproto/src/danog/MadelineProto/Ipc/Runner/entry.php(110): danog\MadelineProto\Tools::wait()
+#12 /home/sulaymon/projects/testExpress/vendor/danog/madelineproto/src/danog/MadelineProto/Ipc/Runner/entry.php(134): {closure}()
+#13 {main}
+ReadLoop:       	Got nothing in the socket in DC 4_media.2, reconnecting...
+Connection:     	Reconnecting DC 4_media.2
+Connection:     	Disconnecting from DC 4_media.2
+Connection:     	Disconnected from DC 4_media.2
+DataCenter:     	Reconnecting to DC 4_media (2) from existing
+DataCenterConnection: 	Trying shared connection via tcp://149.154.167.43:443 main DC 4_media, via ipv4 using AbridgedStream => BufferedRawStream => DefaultStream (2)
+Connection:     	Connecting to DC 4_media.2
+Connection:     	Connected to DC 4_media.2!
+DataCenter:     	OK!
+Session:        	Garbage collected 7 incoming messages in DC 2, 0 left
+Session:        	Garbage collected 5 outgoing messages in DC 2, 0 left
+SessionPaths:   	Waiting for exclusive lock of /home/sulaymon/projects/testExpress/public/session.madeline.safe.php.lock...
+SessionPaths:   	Got exclusive lock of /home/sulaymon/projects/testExpress/public/session.madeline.safe.php.lock...
+SessionPaths:   	Waiting for exclusive lock of /home/sulaymon/projects/testExpress/public/session.madeline.lightState.php.lock...
+SessionPaths:   	Got exclusive lock of /home/sulaymon/projects/testExpress/public/session.madeline.lightState.php.lock...
+APIWrapper:     	Saved session!
+PingLoop:       	Ping DC 2.0
+Session:        	Garbage collected 1 incoming messages in DC 2, 0 left
+Session:        	Garbage collected 1 outgoing messages in DC 2, 0 left
+Session:        	Garbage collected 1 incoming messages in DC 2, 0 left
+Session:        	Garbage collected 2 outgoing messages in DC 2, 0 left
+SessionPaths:   	Waiting for exclusive lock of /home/sulaymon/projects/testExpress/public/._madeline.safe.php.lock...
+SessionPaths:   	Got exclusive lock of /home/sulaymon/projects/testExpress/public/._madeline.safe.php.lock...
+SessionPaths:   	Waiting for exclusive lock of /home/sulaymon/projects/testExpress/public/._madeline.lightState.php.lock...
+SessionPaths:   	Got exclusive lock of /home/sulaymon/projects/testExpress/public/._madeline.lightState.php.lock...
+APIWrapper:     	Saved session!
+Session:        	Garbage collected 1 incoming messages in DC 2, 0 left
+Session:        	Garbage collected 2 outgoing messages in DC 2, 0 left
+PingLoop:       	Ping DC 4.0
+Session:        	Garbage collected 1 incoming messages in DC 4, 0 left
+Session:        	Garbage collected 1 outgoing messages in DC 4, 0 left
+Session:        	Garbage collected 7 incoming messages in DC 2, 0 left
+Session:        	Garbage collected 6 outgoing messages in DC 2, 0 left
+PingLoop:       	Ping DC 3.0
+Session:        	Garbage collected 1 incoming messages in DC 3, 0 left
+Session:        	Garbage collected 1 outgoing messages in DC 3, 0 left
+Session:        	Garbage collected 1 incoming messages in DC 2, 0 left
+Session:        	Garbage collected 2 outgoing messages in DC 2, 0 left
+PingLoop:       	Ping DC 1.0
+Session:        	Garbage collected 1 incoming messages in DC 2, 0 left
+Session:        	Garbage collected 2 outgoing messages in DC 2, 0 left
+Session:        	Garbage collected 1 incoming messages in DC 1, 0 left
+Session:        	Garbage collected 1 outgoing messages in DC 1, 0 left
+ReadLoop:       	danog\MadelineProto\NothingInTheSocketException in /home/sulaymon/projects/testExpress/vendor/danog/madelineproto/src/danog/MadelineProto/Stream/Common/BufferedRawStream.php:180
+Stack trace:
+#0 [internal function]: danog\MadelineProto\Stream\Common\BufferedRawStream->bufferReadGenerator()
+#1 /home/sulaymon/projects/testExpress/vendor/danog/madelineproto/src/danog/MadelineProto/Coroutine.php(112): Generator->send()
+#2 /home/sulaymon/projects/testExpress/vendor/amphp/amp/lib/Internal/Placeholder.php(149): danog\MadelineProto\Coroutine->danog\MadelineProto\{closure}()
+#3 /home/sulaymon/projects/testExpress/vendor/amphp/amp/lib/Deferred.php(53): Amp\Promise@anonymous->resolve()
+#4 /home/sulaymon/projects/testExpress/vendor/amphp/byte-stream/lib/ResourceInputStream.php(101): Amp\Deferred->resolve()
+#5 /home/sulaymon/projects/testExpress/vendor/amphp/amp/lib/Loop/NativeDriver.php(327): Amp\ByteStream\ResourceInputStream::Amp\ByteStream\{closure}()
+#6 /home/sulaymon/projects/testExpress/vendor/amphp/amp/lib/Loop/NativeDriver.php(127): Amp\Loop\NativeDriver->selectStreams()
+#7 /home/sulaymon/projects/testExpress/vendor/amphp/amp/lib/Loop/Driver.php(138): Amp\Loop\NativeDriver->dispatch()
+#8 /home/sulaymon/projects/testExpress/vendor/amphp/amp/lib/Loop/Driver.php(72): Amp\Loop\Driver->tick()
+#9 /home/sulaymon/projects/testExpress/vendor/amphp/amp/lib/Loop.php(95): Amp\Loop\Driver->run()
+#10 /home/sulaymon/projects/testExpress/vendor/danog/madelineproto/src/danog/MadelineProto/Tools.php(294): Amp\Loop::run()
+#11 /home/sulaymon/projects/testExpress/vendor/danog/madelineproto/src/danog/MadelineProto/Ipc/Runner/entry.php(110): danog\MadelineProto\Tools::wait()
+#12 /home/sulaymon/projects/testExpress/vendor/danog/madelineproto/src/danog/MadelineProto/Ipc/Runner/entry.php(134): {closure}()
+#13 {main}
+ReadLoop:       	Got nothing in the socket in DC 4_media.1, reconnecting...
+Connection:     	Reconnecting DC 4_media.1
+Connection:     	Disconnecting from DC 4_media.1
+Connection:     	Disconnected from DC 4_media.1
+DataCenter:     	Reconnecting to DC 4_media (1) from existing
+DataCenterConnection: 	Trying shared connection via tcp://149.154.167.43:443 main DC 4_media, via ipv4 using AbridgedStream => BufferedRawStream => DefaultStream (1)
+Connection:     	Connecting to DC 4_media.1
+Connection:     	Connected to DC 4_media.1!
+DataCenter:     	OK!
+Session:        	Garbage collected 7 incoming messages in DC 2, 0 left
+Session:        	Garbage collected 6 outgoing messages in DC 2, 0 left
+PingLoop:       	Ping DC 4.0
+Session:        	Garbage collected 0 outgoing messages in DC 4, 1 left
+PingLoop:       	Ping DC 1.0
+Session:        	Garbage collected 0 outgoing messages in DC 1, 1 left
+Session:        	Garbage collected 1 incoming messages in DC 4, 0 left
+Session:        	Garbage collected 1 outgoing messages in DC 4, 0 left
+Session:        	Garbage collected 1 incoming messages in DC 1, 0 left
+Session:        	Garbage collected 1 outgoing messages in DC 1, 0 left
+PingLoop:       	Ping DC 5.0
+Session:        	Garbage collected 0 outgoing messages in DC 5, 1 left
+Session:        	Garbage collected 1 incoming messages in DC 5, 0 left
+Session:        	Garbage collected 1 outgoing messages in DC 5, 0 left
+Session:        	Garbage collected 1 outgoing messages in DC 2, 1 left
+Session:        	Garbage collected 1 incoming messages in DC 2, 0 left
+Session:        	Garbage collected 2 outgoing messages in DC 2, 1 left
+Session:        	Garbage collected 1 incoming messages in DC 2, 0 left
+Session:        	Garbage collected 1 outgoing messages in DC 2, 0 left
+Session:        	Garbage collected 1 outgoing messages in DC 2, 5 left
+Session:        	Garbage collected 7 incoming messages in DC 2, 0 left
+Session:        	Garbage collected 5 outgoing messages in DC 2, 0 left
+SessionPaths:   	Waiting for exclusive lock of /home/sulaymon/projects/testExpress/public/session.madeline.safe.php.lock...
+SessionPaths:   	Got exclusive lock of /home/sulaymon/projects/testExpress/public/session.madeline.safe.php.lock...
+SessionPaths:   	Waiting for exclusive lock of /home/sulaymon/projects/testExpress/public/session.madeline.lightState.php.lock...
+SessionPaths:   	Got exclusive lock of /home/sulaymon/projects/testExpress/public/session.madeline.lightState.php.lock...
+APIWrapper:     	Saved session!
+ReadLoop:       	danog\MadelineProto\NothingInTheSocketException in /home/sulaymon/projects/testExpress/vendor/danog/madelineproto/src/danog/MadelineProto/Stream/Common/BufferedRawStream.php:180
+Stack trace:
+#0 [internal function]: danog\MadelineProto\Stream\Common\BufferedRawStream->bufferReadGenerator()
+#1 /home/sulaymon/projects/testExpress/vendor/danog/madelineproto/src/danog/MadelineProto/Coroutine.php(112): Generator->send()
+#2 /home/sulaymon/projects/testExpress/vendor/amphp/amp/lib/Internal/Placeholder.php(149): danog\MadelineProto\Coroutine->danog\MadelineProto\{closure}()
+#3 /home/sulaymon/projects/testExpress/vendor/amphp/amp/lib/Deferred.php(53): Amp\Promise@anonymous->resolve()
+#4 /home/sulaymon/projects/testExpress/vendor/amphp/byte-stream/lib/ResourceInputStream.php(101): Amp\Deferred->resolve()
+#5 /home/sulaymon/projects/testExpress/vendor/amphp/amp/lib/Loop/NativeDriver.php(327): Amp\ByteStream\ResourceInputStream::Amp\ByteStream\{closure}()
+#6 /home/sulaymon/projects/testExpress/vendor/amphp/amp/lib/Loop/NativeDriver.php(127): Amp\Loop\NativeDriver->selectStreams()
+#7 /home/sulaymon/projects/testExpress/vendor/amphp/amp/lib/Loop/Driver.php(138): Amp\Loop\NativeDriver->dispatch()
+#8 /home/sulaymon/projects/testExpress/vendor/amphp/amp/lib/Loop/Driver.php(72): Amp\Loop\Driver->tick()
+#9 /home/sulaymon/projects/testExpress/vendor/amphp/amp/lib/Loop.php(95): Amp\Loop\Driver->run()
+#10 /home/sulaymon/projects/testExpress/vendor/danog/madelineproto/src/danog/MadelineProto/Tools.php(294): Amp\Loop::run()
+#11 /home/sulaymon/projects/testExpress/vendor/danog/madelineproto/src/danog/MadelineProto/Ipc/Runner/entry.php(110): danog\MadelineProto\Tools::wait()
+#12 /home/sulaymon/projects/testExpress/vendor/danog/madelineproto/src/danog/MadelineProto/Ipc/Runner/entry.php(134): {closure}()
+#13 {main}
+ReadLoop:       	Got nothing in the socket in DC 4_media.4, reconnecting...
+Connection:     	Reconnecting DC 4_media.4
+Connection:     	Disconnecting from DC 4_media.4
+Connection:     	Disconnected from DC 4_media.4
+DataCenter:     	Reconnecting to DC 4_media (4) from existing
+DataCenterConnection: 	Trying shared connection via tcp://149.154.167.43:443 main DC 4_media, via ipv4 using AbridgedStream => BufferedRawStream => DefaultStream (4)
+Connection:     	Connecting to DC 4_media.4
+Connection:     	Connected to DC 4_media.4!
+DataCenter:     	OK!
+SessionPaths:   	Waiting for exclusive lock of /home/sulaymon/projects/testExpress/public/._madeline.safe.php.lock...
+SessionPaths:   	Got exclusive lock of /home/sulaymon/projects/testExpress/public/._madeline.safe.php.lock...
+SessionPaths:   	Waiting for exclusive lock of /home/sulaymon/projects/testExpress/public/._madeline.lightState.php.lock...
+SessionPaths:   	Got exclusive lock of /home/sulaymon/projects/testExpress/public/._madeline.lightState.php.lock...
+APIWrapper:     	Saved session!
+Session:        	Garbage collected 1 incoming messages in DC 2, 0 left
+Session:        	Garbage collected 2 outgoing messages in DC 2, 0 left
+Session:        	Garbage collected 1 incoming messages in DC 2, 0 left
+Session:        	Garbage collected 2 outgoing messages in DC 2, 0 left
+Session:        	Garbage collected 7 incoming messages in DC 2, 0 left
+Session:        	Garbage collected 7 outgoing messages in DC 2, 0 left
+ReadLoop:       	danog\MadelineProto\NothingInTheSocketException in /home/sulaymon/projects/testExpress/vendor/danog/madelineproto/src/danog/MadelineProto/Stream/Common/BufferedRawStream.php:180
+Stack trace:
+#0 [internal function]: danog\MadelineProto\Stream\Common\BufferedRawStream->bufferReadGenerator()
+#1 /home/sulaymon/projects/testExpress/vendor/danog/madelineproto/src/danog/MadelineProto/Coroutine.php(112): Generator->send()
+#2 /home/sulaymon/projects/testExpress/vendor/amphp/amp/lib/Internal/Placeholder.php(149): danog\MadelineProto\Coroutine->danog\MadelineProto\{closure}()
+#3 /home/sulaymon/projects/testExpress/vendor/amphp/amp/lib/Deferred.php(53): Amp\Promise@anonymous->resolve()
+#4 /home/sulaymon/projects/testExpress/vendor/amphp/byte-stream/lib/ResourceInputStream.php(101): Amp\Deferred->resolve()
+#5 /home/sulaymon/projects/testExpress/vendor/amphp/amp/lib/Loop/NativeDriver.php(327): Amp\ByteStream\ResourceInputStream::Amp\ByteStream\{closure}()
+#6 /home/sulaymon/projects/testExpress/vendor/amphp/amp/lib/Loop/NativeDriver.php(127): Amp\Loop\NativeDriver->selectStreams()
+#7 /home/sulaymon/projects/testExpress/vendor/amphp/amp/lib/Loop/Driver.php(138): Amp\Loop\NativeDriver->dispatch()
+#8 /home/sulaymon/projects/testExpress/vendor/amphp/amp/lib/Loop/Driver.php(72): Amp\Loop\Driver->tick()
+#9 /home/sulaymon/projects/testExpress/vendor/amphp/amp/lib/Loop.php(95): Amp\Loop\Driver->run()
+#10 /home/sulaymon/projects/testExpress/vendor/danog/madelineproto/src/danog/MadelineProto/Tools.php(294): Amp\Loop::run()
+#11 /home/sulaymon/projects/testExpress/vendor/danog/madelineproto/src/danog/MadelineProto/Ipc/Runner/entry.php(110): danog\MadelineProto\Tools::wait()
+#12 /home/sulaymon/projects/testExpress/vendor/danog/madelineproto/src/danog/MadelineProto/Ipc/Runner/entry.php(134): {closure}()
+#13 {main}
+ReadLoop:       	Got nothing in the socket in DC 4_media.3, reconnecting...
+Connection:     	Reconnecting DC 4_media.3
+Connection:     	Disconnecting from DC 4_media.3
+Connection:     	Disconnected from DC 4_media.3
+DataCenter:     	Reconnecting to DC 4_media (3) from existing
+DataCenterConnection: 	Trying shared connection via tcp://149.154.167.43:443 main DC 4_media, via ipv4 using AbridgedStream => BufferedRawStream => DefaultStream (3)
+Connection:     	Connecting to DC 4_media.3
+Connection:     	Connected to DC 4_media.3!
+DataCenter:     	OK!
+Session:        	Garbage collected 1 outgoing messages in DC 2, 1 left
+UpdateHandler:  	Parsing updates (updateShort) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+Session:        	Garbage collected 3 incoming messages in DC 2, 0 left
+Session:        	Garbage collected 3 outgoing messages in DC 2, 0 left
+Session:        	Garbage collected 7 incoming messages in DC 2, 0 left
+Session:        	Garbage collected 7 outgoing messages in DC 2, 0 left
+PingLoop:       	Ping DC 5.0
+Session:        	Garbage collected 0 outgoing messages in DC 5, 1 left
+Session:        	Garbage collected 1 incoming messages in DC 5, 0 left
+Session:        	Garbage collected 1 outgoing messages in DC 5, 0 left
+Session:        	Garbage collected 1 incoming messages in DC 2, 0 left
+Session:        	Garbage collected 3 outgoing messages in DC 2, 1 left
+Session:        	Garbage collected 1 incoming messages in DC 2, 0 left
+Session:        	Garbage collected 1 outgoing messages in DC 2, 0 left
+ReadLoop:       	danog\MadelineProto\NothingInTheSocketException in /home/sulaymon/projects/testExpress/vendor/danog/madelineproto/src/danog/MadelineProto/Stream/Common/BufferedRawStream.php:180
+Stack trace:
+#0 [internal function]: danog\MadelineProto\Stream\Common\BufferedRawStream->bufferReadGenerator()
+#1 /home/sulaymon/projects/testExpress/vendor/danog/madelineproto/src/danog/MadelineProto/Coroutine.php(112): Generator->send()
+#2 /home/sulaymon/projects/testExpress/vendor/amphp/amp/lib/Internal/Placeholder.php(149): danog\MadelineProto\Coroutine->danog\MadelineProto\{closure}()
+#3 /home/sulaymon/projects/testExpress/vendor/amphp/amp/lib/Deferred.php(53): Amp\Promise@anonymous->resolve()
+#4 /home/sulaymon/projects/testExpress/vendor/amphp/byte-stream/lib/ResourceInputStream.php(101): Amp\Deferred->resolve()
+#5 /home/sulaymon/projects/testExpress/vendor/amphp/amp/lib/Loop/NativeDriver.php(327): Amp\ByteStream\ResourceInputStream::Amp\ByteStream\{closure}()
+#6 /home/sulaymon/projects/testExpress/vendor/amphp/amp/lib/Loop/NativeDriver.php(127): Amp\Loop\NativeDriver->selectStreams()
+#7 /home/sulaymon/projects/testExpress/vendor/amphp/amp/lib/Loop/Driver.php(138): Amp\Loop\NativeDriver->dispatch()
+#8 /home/sulaymon/projects/testExpress/vendor/amphp/amp/lib/Loop/Driver.php(72): Amp\Loop\Driver->tick()
+#9 /home/sulaymon/projects/testExpress/vendor/amphp/amp/lib/Loop.php(95): Amp\Loop\Driver->run()
+#10 /home/sulaymon/projects/testExpress/vendor/danog/madelineproto/src/danog/MadelineProto/Tools.php(294): Amp\Loop::run()
+#11 /home/sulaymon/projects/testExpress/vendor/danog/madelineproto/src/danog/MadelineProto/Ipc/Runner/entry.php(110): danog\MadelineProto\Tools::wait()
+#12 /home/sulaymon/projects/testExpress/vendor/danog/madelineproto/src/danog/MadelineProto/Ipc/Runner/entry.php(134): {closure}()
+#13 {main}
+ReadLoop:       	Got nothing in the socket in DC 4_media.2, reconnecting...
+Connection:     	Reconnecting DC 4_media.2
+Connection:     	Disconnecting from DC 4_media.2
+Connection:     	Disconnected from DC 4_media.2
+DataCenter:     	Reconnecting to DC 4_media (2) from existing
+DataCenterConnection: 	Trying shared connection via tcp://149.154.167.43:443 main DC 4_media, via ipv4 using AbridgedStream => BufferedRawStream => DefaultStream (2)
+Connection:     	Connecting to DC 4_media.2
+Session:        	Garbage collected 2 outgoing messages in DC 2, 5 left
+Connection:     	Connected to DC 4_media.2!
+DataCenter:     	OK!
+SessionPaths:   	Waiting for exclusive lock of /home/sulaymon/projects/testExpress/public/session.madeline.safe.php.lock...
+SessionPaths:   	Got exclusive lock of /home/sulaymon/projects/testExpress/public/session.madeline.safe.php.lock...
+SessionPaths:   	Waiting for exclusive lock of /home/sulaymon/projects/testExpress/public/session.madeline.lightState.php.lock...
+SessionPaths:   	Got exclusive lock of /home/sulaymon/projects/testExpress/public/session.madeline.lightState.php.lock...
+APIWrapper:     	Saved session!
+UpdateHandler:  	Parsing updates (updateShort) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+Session:        	Garbage collected 8 incoming messages in DC 2, 0 left
+Session:        	Garbage collected 5 outgoing messages in DC 2, 0 left
+PingLoop:       	Ping DC 2.0
+UpdateHandler:  	Parsing updates (updateShort) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+Session:        	Garbage collected 0 outgoing messages in DC 2, 1 left
+Session:        	Garbage collected 1 incoming messages in DC 2, 0 left
+Session:        	Garbage collected 1 incoming messages in DC 2, 0 left
+Session:        	Garbage collected 1 outgoing messages in DC 2, 0 left
+UpdateHandler:  	Parsing updates (updateShort) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+Session:        	Garbage collected 1 incoming messages in DC 2, 0 left
+ReadLoop:       	danog\MadelineProto\NothingInTheSocketException in /home/sulaymon/projects/testExpress/vendor/danog/madelineproto/src/danog/MadelineProto/Stream/Common/BufferedRawStream.php:180
+Stack trace:
+#0 [internal function]: danog\MadelineProto\Stream\Common\BufferedRawStream->bufferReadGenerator()
+#1 /home/sulaymon/projects/testExpress/vendor/danog/madelineproto/src/danog/MadelineProto/Coroutine.php(112): Generator->send()
+#2 /home/sulaymon/projects/testExpress/vendor/amphp/amp/lib/Internal/Placeholder.php(149): danog\MadelineProto\Coroutine->danog\MadelineProto\{closure}()
+#3 /home/sulaymon/projects/testExpress/vendor/amphp/amp/lib/Deferred.php(53): Amp\Promise@anonymous->resolve()
+#4 /home/sulaymon/projects/testExpress/vendor/amphp/byte-stream/lib/ResourceInputStream.php(101): Amp\Deferred->resolve()
+#5 /home/sulaymon/projects/testExpress/vendor/amphp/amp/lib/Loop/NativeDriver.php(327): Amp\ByteStream\ResourceInputStream::Amp\ByteStream\{closure}()
+#6 /home/sulaymon/projects/testExpress/vendor/amphp/amp/lib/Loop/NativeDriver.php(127): Amp\Loop\NativeDriver->selectStreams()
+#7 /home/sulaymon/projects/testExpress/vendor/amphp/amp/lib/Loop/Driver.php(138): Amp\Loop\NativeDriver->dispatch()
+#8 /home/sulaymon/projects/testExpress/vendor/amphp/amp/lib/Loop/Driver.php(72): Amp\Loop\Driver->tick()
+#9 /home/sulaymon/projects/testExpress/vendor/amphp/amp/lib/Loop.php(95): Amp\Loop\Driver->run()
+#10 /home/sulaymon/projects/testExpress/vendor/danog/madelineproto/src/danog/MadelineProto/Tools.php(294): Amp\Loop::run()
+#11 /home/sulaymon/projects/testExpress/vendor/danog/madelineproto/src/danog/MadelineProto/Ipc/Runner/entry.php(110): danog\MadelineProto\Tools::wait()
+#12 /home/sulaymon/projects/testExpress/vendor/danog/madelineproto/src/danog/MadelineProto/Ipc/Runner/entry.php(134): {closure}()
+#13 {main}
+ReadLoop:       	Got nothing in the socket in DC 4_media.0, reconnecting...
+Connection:     	Reconnecting DC 4_media.0
+Connection:     	Disconnecting from DC 4_media.0
+Connection:     	Disconnected from DC 4_media.0
+DataCenter:     	Reconnecting to DC 4_media (0) from existing
+DataCenterConnection: 	Trying shared connection via tcp://149.154.167.43:443 main DC 4_media, via ipv4 using AbridgedStream => BufferedRawStream => DefaultStream (0)
+Connection:     	Connecting to DC 4_media.0
+Connection:     	Connected to DC 4_media.0!
+DataCenter:     	OK!
+SessionPaths:   	Waiting for exclusive lock of /home/sulaymon/projects/testExpress/public/._madeline.safe.php.lock...
+SessionPaths:   	Got exclusive lock of /home/sulaymon/projects/testExpress/public/._madeline.safe.php.lock...
+SessionPaths:   	Waiting for exclusive lock of /home/sulaymon/projects/testExpress/public/._madeline.lightState.php.lock...
+SessionPaths:   	Got exclusive lock of /home/sulaymon/projects/testExpress/public/._madeline.lightState.php.lock...
+APIWrapper:     	Saved session!
+Session:        	Garbage collected 1 incoming messages in DC 2, 0 left
+Session:        	Garbage collected 2 outgoing messages in DC 2, 0 left
+PingLoop:       	Ping DC 4.0
+Session:        	Garbage collected 0 outgoing messages in DC 4, 1 left
+Session:        	Garbage collected 1 incoming messages in DC 2, 0 left
+Session:        	Garbage collected 2 outgoing messages in DC 2, 0 left
+Session:        	Garbage collected 1 incoming messages in DC 4, 0 left
+Session:        	Garbage collected 1 outgoing messages in DC 4, 0 left
+Session:        	Garbage collected 7 incoming messages in DC 2, 0 left
+Session:        	Garbage collected 7 outgoing messages in DC 2, 0 left
+UpdateHandler:  	Parsing updates (updateShort) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+Session:        	Garbage collected 1 incoming messages in DC 2, 0 left
+PingLoop:       	Ping DC 3.0
+Session:        	Garbage collected 0 outgoing messages in DC 3, 1 left
+PingLoop:       	Ping DC 1.0
+Session:        	Garbage collected 1 incoming messages in DC 3, 0 left
+Session:        	Garbage collected 1 outgoing messages in DC 3, 0 left
+Session:        	Garbage collected 1 incoming messages in DC 1, 0 left
+Session:        	Garbage collected 1 outgoing messages in DC 1, 0 left
+Session:        	Garbage collected 1 outgoing messages in DC 2, 1 left
+Session:        	Garbage collected 2 incoming messages in DC 2, 0 left
+Session:        	Garbage collected 3 outgoing messages in DC 2, 0 left
