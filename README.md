@@ -1,5 +1,5 @@
 Telegram api 
-Used to send messages to contacts as User (not bot ) by sending list of messages and contact's nickanme ( @some_contact) to certain api route.  
+Used to send messages to contacts as User (not as bot ) by sending list of messages and contact's nickanme ( @some_contact) to certain api route.  
 Route is /api/telegram. 
 Send -  ['message' => [ 'row' , 'of' , 'messages'] , 'peer' => '@some_contact' ];
 But first you need to login . To do that , you need to go to https://my.telegram.org/auth.  There you will get api_id and api_hash . 
